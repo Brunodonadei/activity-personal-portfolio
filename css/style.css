@@ -356,3 +356,15 @@ a {
 .footer-links a:hover {
   opacity: 0.7;
 }
+
+.footer-credit {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-soft);
+  text-align: center;
+}
+
+.footer-credit p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
