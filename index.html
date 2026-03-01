@@ -11,28 +11,47 @@
       <nav class="nav-section">
         <h1>B Portfólio</h1>
         <ul>
-          <li><a class="animated-link" href="#">Section 1</a></li>
-          <li><a class="animated-link" href="#">Section 2</a></li>
-          <li><a class="animated-link" href="#">Section 3</a></li>
-          <li><a class="animated-link" href="#">Section 4</a></li>
+          <li>
+            <a class="animated-link" href="#professional"
+              >Descrição profissional</a
+            >
+          </li>
+          <li><a class="animated-link" href="#about-me">Sobre mim</a></li>
+          <li><a class="animated-link" href="#projects">Projetos</a></li>
+          <li><a class="animated-link" href="#contact">Contato</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="professional-info-section glass-effect">
+      <section class="professional-info-section glass-effect" id="professional">
         <div class="professional-info">
-          <h2>Olá, 👋</h2>
+          <h2>
+            Front-end Engineer |
+            <span class="highlight">
+              Arquitetura, Escalabilidade e Sistemas Modulares
+            </span>
+          </h2>
 
           <div class="bio">
             <p>
-              Sou o <strong>Bruno Donadei</strong>. Atuo como desenvolvedor
-              <span class="highlight">Front-end</span> desde 2023, focado em
-              criar interfaces que unem performance e escalabilidade.
+              Sou o <strong>Bruno Donadei</strong>, desenvolvedor
+              <span class="highlight">Front-end</span> desde 2023, com foco em
+              arquitetura de aplicações escaláveis e organização de sistemas
+              complexos.
             </p>
+
             <p>
-              Atualmente, faço parte do time da <strong>Hi Platform</strong>,
-              onde trabalho com <strong>React</strong> e arquitetura de
-              <strong>micro-serviços</strong>.
+              Trabalho com <strong>React</strong> em ambientes que utilizam
+              <strong>micro-serviços</strong> e micro-frontends, atuando na
+              definição de padrões, separação de responsabilidades e evolução
+              estruturada do código ao longo do tempo.
+            </p>
+
+            <p>
+              Atualmente faço parte do time da <strong>Hi Platform</strong>,
+              contribuindo para manter o front-end alinhado à arquitetura
+              distribuída da plataforma, garantindo performance, previsibilidade
+              e capacidade de crescimento contínuo.
             </p>
           </div>
 
@@ -55,36 +74,40 @@
         </div>
 
         <div class="professional-profile-picture">
-          <img
-            src="/assets/images/default-avatar-icon-of-social-media-user-vector.jpg"
-            alt="Foto de Bruno Donadei"
-          />
+          <img src="/assets/images/unnamed.jpg" alt="Foto de Bruno Donadei" />
         </div>
       </section>
 
-      <section class="about-me-section glass-effect">
-        <h2>SOBRE MIM!!!!!!!!</h2>
+      <hr class="divisor" />
+
+      <section class="about-me-section glass-effect" id="about-me">
+        <h2>Sobre mim</h2>
+
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet optio
-          eaque, ab inventore dicta, dolores ipsum facere beatae nemo
-          perspiciatis a reiciendis deleniti autem mollitia rerum repellendus
-          enim accusantium et?
+          Não enxergo o front-end apenas como camada de interface, mas como
+          parte integrante da arquitetura do sistema. Avalio cuidadosamente os
+          trade-offs de cada decisão técnica, considerando impacto em
+          escalabilidade, manutenção e evolução do produto ao longo do tempo.
         </p>
+
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet optio
-          eaque, ab inventore dicta, dolores ipsum facere beatae nemo
-          perspiciatis a reiciendis deleniti autem mollitia rerum repellendus
-          enim accusantium et?
+          Estruturo o código com base em domínio e responsabilidade, buscando
+          reduzir acoplamento e aumentar previsibilidade. Mais do que organizar
+          para mim, procuro manter padrões claros e consistentes para que o time
+          consiga evoluir o sistema com segurança e autonomia.
         </p>
+
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet optio
-          eaque, ab inventore dicta, dolores ipsum facere beatae nemo
-          perspiciatis a reiciendis deleniti autem mollitia rerum repellendus
-          enim accusantium et?
+          Entendo que arquitetura não é uma decisão isolada, mas um esforço
+          coletivo. Por isso, priorizo clareza, alinhamento e responsabilidade
+          técnica, contribuindo para que o front-end cresça de forma sustentável
+          dentro do contexto maior da plataforma.
         </p>
       </section>
 
-      <section class="projects-section glass-effect">
+      <hr class="divisor" />
+
+      <section class="projects-section glass-effect" id="projects">
         <article class="project-card glass-effect">
           <div class="project-thumb"></div>
           <div class="project-content">
@@ -122,6 +145,23 @@
         </article>
       </section>
     </main>
-    <footer></footer>
+
+    <footer class="site-footer" id="contact">
+      <div class="footer-container">
+        <div class="footer-info">
+          <h3>Contato</h3>
+          <p>
+            Aberto a oportunidades e conversas sobre arquitetura front-end,
+            sistemas modulares e produtos escaláveis.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="mailto:#">Email</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
